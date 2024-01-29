@@ -45,7 +45,6 @@ public class TestTaskTwo {
                 .andExpect(status().isOk())
                 .andExpect(xpath("//table[contains(@class, 'job-listing')]").exists());
     }
-
     /*
      * Looking at the first job table only, verify that all job fields are listed
      * */
